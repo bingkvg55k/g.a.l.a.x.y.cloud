@@ -1,9 +1,9 @@
 name: Daily Update
 
 on:
-  schedule:
-    - cron: '5 1 * * *'
-    - cron: "0 19 * * *"
+#  schedule:
+#    - cron: '5 1 * * *'
+#    - cron: "0 19 * * *"
   workflow_dispatch:
   push:
     branches: [main]
